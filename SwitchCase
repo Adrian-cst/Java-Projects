@@ -1,5 +1,15 @@
-public class Main{
-   public static void main(String[] args){
-      System.out.println("HW");
-   }
+import java.util.Scanner; //importando la clase "Scanner".
+
+public class SwitchCase{
+    public static void main(String[] args){
+        Scanner entrada = new Scanner(System.in); //creando objrto de tipo Scanner.
+        String name = "";
+
+        System.out.println("HW in Java");
+
+        System.out.print("Your name: ");
+        name = entrada.nextLine();
+
+        System.out.println("Your name is: " + name);
+    }
 }
